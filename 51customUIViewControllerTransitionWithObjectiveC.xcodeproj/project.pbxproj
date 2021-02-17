@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C24983C25DCFEC40048F574 /* CUTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24983B25DCFEC40048F574 /* CUTransition.m */; };
 		3C2C7EED25DB66E000AB3402 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2C7EEC25DB66E000AB3402 /* AppDelegate.m */; };
 		3C2C7EF025DB66E000AB3402 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2C7EEF25DB66E000AB3402 /* SceneDelegate.m */; };
 		3C2C7EF325DB66E000AB3402 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2C7EF225DB66E000AB3402 /* ViewController.m */; };
@@ -16,6 +17,7 @@
 		3C2C7EFE25DB66E100AB3402 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2C7EFD25DB66E100AB3402 /* main.m */; };
 		3C2C7F0825DB66E100AB3402 /* _1customUIViewControllerTransitionWithObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2C7F0725DB66E100AB3402 /* _1customUIViewControllerTransitionWithObjectiveCTests.m */; };
 		3C2C7F1325DB66E100AB3402 /* _1customUIViewControllerTransitionWithObjectiveCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2C7F1225DB66E100AB3402 /* _1customUIViewControllerTransitionWithObjectiveCUITests.m */; };
+		3CCEC0BF25DB72F800C4952D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCEC0BE25DB72F800C4952D /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C24983A25DCFEC40048F574 /* CUTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUTransition.h; sourceTree = "<group>"; };
+		3C24983B25DCFEC40048F574 /* CUTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUTransition.m; sourceTree = "<group>"; };
 		3C2C7EE825DB66E000AB3402 /* 51customUIViewControllerTransitionWithObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 51customUIViewControllerTransitionWithObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C2C7EEB25DB66E000AB3402 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3C2C7EEC25DB66E000AB3402 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		3C2C7F0E25DB66E100AB3402 /* 51customUIViewControllerTransitionWithObjectiveCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 51customUIViewControllerTransitionWithObjectiveCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C2C7F1225DB66E100AB3402 /* _1customUIViewControllerTransitionWithObjectiveCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1customUIViewControllerTransitionWithObjectiveCUITests.m; sourceTree = "<group>"; };
 		3C2C7F1425DB66E100AB3402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CCEC0BD25DB72F800C4952D /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3CCEC0BE25DB72F800C4952D /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +116,11 @@
 				3C2C7EEF25DB66E000AB3402 /* SceneDelegate.m */,
 				3C2C7EF125DB66E000AB3402 /* ViewController.h */,
 				3C2C7EF225DB66E000AB3402 /* ViewController.m */,
+				3C24983A25DCFEC40048F574 /* CUTransition.h */,
+				3C24983B25DCFEC40048F574 /* CUTransition.m */,
 				3C2C7EF425DB66E000AB3402 /* Main.storyboard */,
+				3CCEC0BD25DB72F800C4952D /* DetailViewController.h */,
+				3CCEC0BE25DB72F800C4952D /* DetailViewController.m */,
 				3C2C7EF725DB66E100AB3402 /* Assets.xcassets */,
 				3C2C7EF925DB66E100AB3402 /* LaunchScreen.storyboard */,
 				3C2C7EFC25DB66E100AB3402 /* Info.plist */,
@@ -266,9 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CCEC0BF25DB72F800C4952D /* DetailViewController.m in Sources */,
 				3C2C7EF325DB66E000AB3402 /* ViewController.m in Sources */,
 				3C2C7EED25DB66E000AB3402 /* AppDelegate.m in Sources */,
 				3C2C7EFE25DB66E100AB3402 /* main.m in Sources */,
+				3C24983C25DCFEC40048F574 /* CUTransition.m in Sources */,
 				3C2C7EF025DB66E000AB3402 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
