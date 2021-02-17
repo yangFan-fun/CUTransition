@@ -36,7 +36,6 @@
     // 转场逻辑
     // fromView.alpha = 1.0;
     toView.alpha = 0.0;
-    
     toView.transform = CGAffineTransformMakeTranslation(0, [UIScreen mainScreen].bounds.size.height / 2);
     
     [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
@@ -51,13 +50,10 @@
 }
 
 - (void)_dismiss:(id<UIViewControllerContextTransitioning>)transitionContext {
-    
     UIViewController *fromViewController = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
     UIViewController *toViewController = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
-    
     UIView *fromView = fromViewController.view;
     UIView *toView = toViewController.view;
-    
     [transitionContext.containerView addSubview:toView];
     
     fromView.alpha = 1.0;
@@ -73,4 +69,6 @@
     }];
     
 }
+
+
 @end
